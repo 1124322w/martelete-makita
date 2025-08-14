@@ -1,199 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Martelete Makita HR2470</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-      color: #333;
-    }
-    header {
-      background-color: #0077c2;
-      color: white;
-      text-align: center;
-      padding: 20px 10px;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 28px;
-    }
-    .price {
-      font-size: 22px;
-      font-weight: bold;
-      margin: 10px 0;
-    }
-
-    /* Carrossel */
-    .carousel-container {
-      position: relative;
-      text-align: center;
-      padding: 20px 0;
-      background-color: white;
-    }
-    #mainImage {
-      width: 80%;
-      max-width: 500px;
-      border-radius: 8px;
-      margin: 10px 0;
-      transition: transform 0.3s;
-    }
-    #mainImage:hover { transform: scale(1.05); }
-
-    button.prev, button.next {
-      position: absolute;
-      top: 50%;
-      background-color: rgba(0,0,0,0.4);
-      color: white;
-      border: none;
-      font-size: 24px;
-      padding: 8px 12px;
-      cursor: pointer;
-      border-radius: 50%;
-      transform: translateY(-50%);
-    }
-    button.prev { left: 5%; }
-    button.next { right: 5%; }
-    button.prev:hover, button.next:hover { background-color: rgba(0,0,0,0.7); }
-
-    .thumbnails {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-top: 10px;
-    }
-    .thumbnails img {
-      width: 80px;
-      cursor: pointer;
-      border-radius: 6px;
-      transition: transform 0.2s;
-    }
-    .thumbnails img:hover {
-      transform: scale(1.1);
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
-
-    /* Depoimentos */
-    .reviews {
-      text-align: center;
-      padding: 30px 10px;
-      background-color: #f9f9f9;
-    }
-    .reviews h2 {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-    .review-cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-bottom: 20px;
-    }
-    .review {
-      background-color: white;
-      padding: 15px 20px;
-      border-radius: 8px;
-      max-width: 250px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-    }
-    .review:hover { transform: translateY(-5px); }
-
-    .buy-button {
-      display: inline-block;
-      padding: 12px 25px;
-      background-color: #ff6600;
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: background-color 0.3s;
-    }
-    .buy-button:hover { background-color: #e65500; }
-
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 15px 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martelete Combinado SDS Plus HR2470 800W Makita - Kit Completo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #009c9d;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-images {
+            display: flex;
+            justify-content: space-between;
+        }
+        .product-images img {
+            width: 32%;
+            border-radius: 8px;
+        }
+        .product-details {
+            margin-top: 20px;
+        }
+        .product-details h2 {
+            color: #333;
+        }
+        .product-details p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .product-specs {
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .product-specs table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .product-specs th, .product-specs td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .product-specs th {
+            background-color: #009c9d;
+            color: white;
+        }
+        .buy-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #ff6f00;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .buy-button:hover {
+            background-color: #e65c00;
+        }
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1>Martelete Rotativo Rompedor SDS Makita HR2470</h1>
-    <div class="price">Preço sugerido: R$ 800,00</div>
-  </header>
+<header>
+    <h1>Martelete Combinado SDS Plus HR2470 800W Makita - Kit Completo</h1>
+</header>
 
-  <section class="carousel-container">
-    <button class="prev" onclick="prevSlide()">&#10094;</button>
-    <img id="mainImage" src="https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp" alt="Martelete Makita HR2470">
-    <button class="next" onclick="nextSlide()">&#10095;</button>
-    <div class="thumbnails">
-      <img src="https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp" alt="Foto 1" onclick="changeImage(this)">
-      <img src="https://http2.mlstatic.com/D_NQ_NP_957462-MLA84544873968_052025-O.webp" alt="Foto 2" onclick="changeImage(this)">
-      <img src="https://http2.mlstatic.com/D_NQ_NP_927654-MLA84544873968_052025-O.webp" alt="Foto 3" onclick="changeImage(this)">
-      <img src="https://http2.mlstatic.com/D_NQ_NP_910234-MLA84544873968_052025-O.webp" alt="Foto 4" onclick="changeImage(this)">
+<div class="container">
+    <div class="product-images">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp" alt="Martelete Makita HR2470">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_744427-MLA84843114145_052025-O.webp" alt="Kit Completo Makita HR2470">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_810151-MLA84843114159_052025-O.webp" alt="Acessórios Makita HR2470">
     </div>
-  </section>
 
-  <section class="reviews">
-    <h2>O que nossos clientes dizem</h2>
-    <div class="review-cards">
-      <div class="review">
-        <p>"Produto excelente, chegou rápido e funciona perfeitamente!"</p>
-        <strong>- João S.</strong>
-      </div>
-      <div class="review">
-        <p>"Muito satisfeito com a compra, super recomendo."</p>
-        <strong>- Maria L.</strong>
-      </div>
-      <div class="review">
-        <p>"Ferramenta potente e durável, vale cada centavo."</p>
-        <strong>- Carlos P.</strong>
-      </div>
+    <div class="product-details">
+        <h2>Descrição do Produto</h2>
+        <p>O Martelete Combinado SDS Plus HR2470 da Makita é uma ferramenta robusta e versátil, ideal para profissionais que exigem alto desempenho em perfurações e rompimentos. Com potência de 800W e energia de impacto de 2.7J, oferece eficiência e durabilidade em diversos materiais.</p>
     </div>
-    <a href="https://www.mercadolivre.com.br/martelete-rotativo-rompedor-sds-makita-hr2470/p/MLB15762048" class="buy-button">Comprar Agora</a>
-  </section>
 
-  <footer>
-    &copy; 2025 Martelete Makita. Todos os direitos reservados.
-  </footer>
+    <div class="product-specs">
+        <h2>Especificações Técnicas</h2>
+        <table>
+            <tr>
+                <th>Potência</th>
+                <td>800W</td>
+            </tr>
+            <tr>
+                <th>Rotação por minuto</th>
+                <td>0-1.100 rpm</td>
+            </tr>
+            <tr>
+                <th>Impacto por minuto</th>
+                <td>0-4.500 ipm</td>
+            </tr>
+            <tr>
+                <th>Capacidade de perfuração</th>
+                <td>Concreto: 24mm | Madeira: 32mm | Metal: 13mm</td>
+            </tr>
+            <tr>
+                <th>Energia de impacto</th>
+                <td>2.7 Joules</td>
+            </tr>
+            <tr>
+                <th>Dimensões (C x L x A)</th>
+                <td>370 x 84 x 214mm</td>
+            </tr>
+            <tr>
+                <th>Peso</th>
+                <td>2.9kg</td>
+            </tr>
+        </table>
+    </div>
 
-  <script>
-    const images = [
-      "https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp",
-      "https://http2.mlstatic.com/D_NQ_NP_957462-MLA84544873968_052025-O.webp",
-      "https://http2.mlstatic.com/D_NQ_NP_927654-MLA84544873968_052025-O.webp",
-      "https://http2.mlstatic.com/D_NQ_NP_910234-MLA84544873968_052025-O.webp"
-    ];
-    let currentIndex = 0;
-
-    function changeImage(element) {
-      document.getElementById("mainImage").src = element.src;
-      currentIndex = images.indexOf(element.src);
-    }
-
-    function nextSlide() {
-      currentIndex = (currentIndex + 1) % images.length;
-      document.getElementById("mainImage").src = images[currentIndex];
-    }
-
-    function prevSlide() {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
-      document.getElementById("mainImage").src = images[currentIndex];
-    }
-
-    setInterval(nextSlide, 5000); // Slide automático a cada 5s
-  </script>
+    <a href="https://produto.mercadolivre.com.br/MLB-2011966251-martelete-combinado-sds-plus-hr2470-800w-makita-kit-completo-_JM" class="buy-button" target="_blank">Comprar no Mercado Livre</a>
+</div>
 
 </body>
 </html>
