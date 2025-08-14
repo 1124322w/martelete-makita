@@ -3,131 +3,211 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Martelete Combinado SDS Plus HR2470 800W Makita - Compra Premium</title>
+<title>Martelete Combinado SDS Plus HR2470 800W Makita - Kit Completo</title>
 <style>
   body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3f3f3;
+    background-color: #f4f4f4;
     color: #333;
   }
-  .container {
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  }
-  h1 {
+  header {
+    background-color: #009c9d;
+    color: white;
+    padding: 15px 0;
     text-align: center;
-    color: #ff6600;
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-  .price {
-    text-align: center;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: bold;
-    color: #000;
+  }
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 12px;
+  }
+  .product-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .product-gallery {
+    flex: 1 1 500px;
+    max-width: 550px;
+    text-align: center;
+  }
+  .main-image-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  .main-image-container img {
+    width: 100%;
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+  }
+  .main-image-container img:hover {
+    transform: scale(1.1);
+  }
+  .thumbnails {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .thumbnails img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.2s;
+  }
+  .thumbnails img:hover {
+    border-color: #009c9d;
+    transform: scale(1.1);
+  }
+  .product-details {
+    flex: 1 1 400px;
+  }
+  .product-details h2 {
+    color: #009c9d;
+    margin-top: 0;
+  }
+  .benefits {
+    background-color: #f0f8f8;
+    padding: 15px;
+    border-radius: 8px;
     margin-bottom: 20px;
   }
-  .carousel {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 10px;
-    padding-bottom: 10px;
-  }
-  .carousel img {
-    flex: 0 0 auto;
-    width: 90%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 12px;
-    scroll-snap-align: start;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
-  .description {
-    margin: 25px 0;
-    line-height: 1.6;
-  }
-  .description ul {
+  .benefits ul {
     padding-left: 20px;
   }
-  .description li {
+  .benefits li {
     margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  .description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  .product-specs {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+  }
+  .product-specs table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .product-specs th, .product-specs td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .product-specs th {
+    background-color: #009c9d;
+    color: white;
   }
   .buy-button {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    background-color: #ff6f00;
+    color: white;
     text-align: center;
-    margin: 30px 0;
-  }
-  .buy-button a {
-    display: inline-block;
-    background-color: #ffce00;
-    color: #000;
-    font-weight: bold;
-    padding: 18px 40px;
     text-decoration: none;
-    border-radius: 12px;
     font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     transition: 0.3s;
   }
-  .buy-button a:hover {
-    background-color: #ffb800;
+  .buy-button:hover {
+    background-color: #e65c00;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
   }
   @media (max-width: 768px) {
-    .carousel {
-      justify-content: center;
+    .product-section {
+      flex-direction: column;
     }
-    .carousel img {
-      width: 80%;
-    }
-  }
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 24px;
-    }
-    .price {
-      font-size: 22px;
-    }
-    .buy-button a {
-      font-size: 18px;
-      padding: 15px 30px;
+    .thumbnails img {
+      width: 65px;
+      height: 65px;
     }
   }
 </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Martelete Combinado SDS Plus HR2470 800W Makita</h1>
-    <div class="price">R$ 800,00</div>
 
-    <div class="carousel">
-      <img src="https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp" alt="Martelete Makita - Foto 1">
-      <img src="https://http2.mlstatic.com/D_NQ_NP_744427-MLA84843114145_052025-O.webp" alt="Martelete Makita - Foto 2">
-      <img src="https://http2.mlstatic.com/D_NQ_NP_810151-MLA84843114159_052025-O.webp" alt="Martelete Makita - Foto 3">
-      <img src="https://http2.mlstatic.com/D_NQ_NP_987271-MLA84843231459_052025-O.webp" alt="Martelete Makita - Foto 4">
+<header>
+Martelete Combinado SDS Plus HR2470 800W Makita - Kit Completo
+</header>
+
+<div class="container">
+  <div class="product-section">
+
+    <!-- Galeria de imagens -->
+    <div class="product-gallery">
+      <div class="main-image-container">
+        <img id="mainImage" src="https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp" alt="Martelete Makita HR2470">
+      </div>
+      <div class="thumbnails">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp" alt="Produto 1" onclick="changeImage(this)">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_744427-MLA84843114145_052025-O.webp" alt="Produto 2" onclick="changeImage(this)">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_810151-MLA84843114159_052025-O.webp" alt="Produto 3" onclick="changeImage(this)">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_987271-MLA84843231459_052025-O.webp" alt="Produto 4" onclick="changeImage(this)">
+      </div>
     </div>
 
-    <div class="description">
-      <p>O Martelete Combinado SDS Plus HR2470 800W da Makita é perfeito para perfurações e rompimentos, combinando potência e ergonomia. Ideal para profissionais que buscam eficiência e durabilidade.</p>
-      <ul>
-        <li>Potência: 800W</li>
-        <li>Função martelete: perfuração e rompimento</li>
-        <li>Sistema SDS Plus</li>
-        <li>Inclui kit completo com brocas e acessórios</li>
-        <li>Design ergonômico e resistente</li>
-      </ul>
+    <!-- Detalhes do produto -->
+    <div class="product-details">
+      <div class="benefits">
+        <ul>
+          <li>Potência de 800W para perfuração e rompimento eficiente</li>
+          <li>Sistema SDS Plus para troca rápida de brocas</li>
+          <li>Kit completo com brocas e acessórios</li>
+          <li>Ergonômico e resistente, ideal para uso profissional</li>
+        </ul>
+      </div>
+
+      <div class="description">
+        <p>O Martelete Combinado SDS Plus HR2470 da Makita é uma ferramenta robusta e versátil, perfeita para profissionais que exigem alto desempenho em perfurações e rompimentos. Ele combina potência, eficiência e durabilidade, permitindo trabalhos em diversos tipos de materiais com conforto e segurança.</p>
+      </div>
+
+      <div class="product-specs">
+        <h2>Especificações Técnicas</h2>
+        <table>
+          <tr><th>Potência</th><td>800W</td></tr>
+          <tr><th>Rotação por minuto</th><td>0-1.100 rpm</td></tr>
+          <tr><th>Impacto por minuto</th><td>0-4.500 ipm</td></tr>
+          <tr><th>Capacidade de perfuração</th><td>Concreto: 24mm | Madeira: 32mm | Metal: 13mm</td></tr>
+          <tr><th>Energia de impacto</th><td>2.7 Joules</td></tr>
+          <tr><th>Dimensões (C x L x A)</th><td>370 x 84 x 214mm</td></tr>
+          <tr><th>Peso</th><td>2.9kg</td></tr>
+        </table>
+      </div>
+
+      <a href="https://www.mercadolivre.com.br/social/wesleyyggabriell?matt_word=wesleyyggabriell&matt_tool=52107038&forceInApp=true&ref=BKWkrlOy%2Brz4hS9USXevh6BQx3qhg5TaVHDqePrmbNwvG5UjaxUKtBovgRjf6guWJcDom7OJiiGlQRLbs1aoD%2Fn5hPZRMVK9bl6tKUbWpDUGCa8MJN%2FZMGFALifmTiln%2Fqj9FNDN4%2BYjyozBPHd3LQOI%2FXKuyCS4mAiytt%2FMI%2FPANDp7MYXwU99brytaeonOKXZsD18%3D" class="buy-button" target="_blank">Comprar Agora</a>
+
     </div>
 
-    <div class="buy-button">
-      <a href="https://www.mercadolivre.com.br/social/wesleyyggabriell?matt_word=wesleyyggabriell&matt_tool=52107038&forceInApp=true&ref=BKWkrlOy%2Brz4hS9USXevh6BQx3qhg5TaVHDqePrmbNwvG5UjaxUKtBovgRjf6guWJcDom7OJiiGlQRLbs1aoD%2Fn5hPZRMVK9bl6tKUbWpDUGCa8MJN%2FZMGFALifmTiln%2Fqj9FNDN4%2BYjyozBPHd3LQOI%2FXKuyCS4mAiytt%2FMI%2FPANDp7MYXwU99brytaeonOKXZsD18%3D" target="_blank">
-        Comprar Agora
-      </a>
-    </div>
   </div>
+</div>
+
+<script>
+function changeImage(thumbnail) {
+    document.getElementById('mainImage').src = thumbnail.src;
+}
+</script>
+
 </body>
 </html>
 
