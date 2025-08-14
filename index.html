@@ -1,65 +1,183 @@
-<!-- Galeria de imagens do produto -->
-<div class="product-gallery">
-  <div class="main-image-container">
-    <img id="mainImage" src="https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp" alt="Martelete Makita HR2470">
-  </div>
-  <div class="thumbnails">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp" alt="Produto 1" onclick="changeImage(this)">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_744427-MLA84843114145_052025-O.webp" alt="Produto 2" onclick="changeImage(this)">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_810151-MLA84843114159_052025-O.webp" alt="Produto 3" onclick="changeImage(this)">
-  </div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martelete Combinado SDS Plus HR2470 800W Makita - Kit Completo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #009c9d;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        /* Galeria de imagens */
+        .product-gallery {
+            max-width: 100%;
+            margin: 0 auto 20px auto;
+        }
+        .main-image-container {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .main-image-container img {
+            width: 100%;
+            transition: transform 0.3s ease;
+        }
+        .main-image-container img:hover {
+            transform: scale(1.2);
+        }
+        .thumbnails {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .thumbnails img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+            border: 2px solid transparent;
+        }
+        .thumbnails img:hover {
+            transform: scale(1.1);
+            border-color: #009c9d;
+        }
+        @media (max-width: 600px) {
+            .thumbnails img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+        .product-details {
+            margin-top: 20px;
+        }
+        .product-details h2 {
+            color: #333;
+        }
+        .product-details p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .product-specs {
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .product-specs table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .product-specs th, .product-specs td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .product-specs th {
+            background-color: #009c9d;
+            color: white;
+        }
+        .buy-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #ff6f00;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .buy-button:hover {
+            background-color: #e65c00;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Martelete Combinado SDS Plus HR2470 800W Makita - Kit Completo</h1>
+</header>
+
+<div class="container">
+
+    <!-- Galeria de imagens -->
+    <div class="product-gallery">
+      <div class="main-image-container">
+        <img id="mainImage" src="https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp" alt="Martelete Makita HR2470">
+      </div>
+      <div class="thumbnails">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_804766-MLA84544873968_052025-O.webp" alt="Produto 1" onclick="changeImage(this)">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_744427-MLA84843114145_052025-O.webp" alt="Produto 2" onclick="changeImage(this)">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_810151-MLA84843114159_052025-O.webp" alt="Produto 3" onclick="changeImage(this)">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_987271-MLA84843231459_052025-O.webp" alt="Produto 4" onclick="changeImage(this)">
+      </div>
+    </div>
+
+    <div class="product-details">
+        <h2>Descrição do Produto</h2>
+        <p>O Martelete Combinado SDS Plus HR2470 da Makita é uma ferramenta robusta e versátil, ideal para profissionais que exigem alto desempenho em perfurações e rompimentos. Com potência de 800W e energia de impacto de 2.7J, oferece eficiência e durabilidade em diversos materiais.</p>
+    </div>
+
+    <div class="product-specs">
+        <h2>Especificações Técnicas</h2>
+        <table>
+            <tr>
+                <th>Potência</th>
+                <td>800W</td>
+            </tr>
+            <tr>
+                <th>Rotação por minuto</th>
+                <td>0-1.100 rpm</td>
+            </tr>
+            <tr>
+                <th>Impacto por minuto</th>
+                <td>0-4.500 ipm</td>
+            </tr>
+            <tr>
+                <th>Capacidade de perfuração</th>
+                <td>Concreto: 24mm | Madeira: 32mm | Metal: 13mm</td>
+            </tr>
+            <tr>
+                <th>Energia de impacto</th>
+                <td>2.7 Joules</td>
+            </tr>
+            <tr>
+                <th>Dimensões (C x L x A)</th>
+                <td>370 x 84 x 214mm</td>
+            </tr>
+            <tr>
+                <th>Peso</th>
+                <td>2.9kg</td>
+            </tr>
+        </table>
+    </div>
+
+    <a href="https://produto.mercadolivre.com.br/MLB-2011966251-martelete-combinado-sds-plus-hr2470-800w-makita-kit-completo-_JM" class="buy-button" target="_blank">Comprar no Mercado Livre</a>
+
 </div>
-
-<style>
-.product-gallery {
-  max-width: 800px;
-  margin: 20px auto;
-}
-
-.main-image-container {
-  width: 100%;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.main-image-container img {
-  width: 100%;
-  transition: transform 0.3s ease;
-}
-
-.main-image-container img:hover {
-  transform: scale(1.2); /* zoom ao passar o mouse */
-}
-
-.thumbnails {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 10px;
-}
-
-.thumbnails img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-  border: 2px solid transparent;
-}
-
-.thumbnails img:hover {
-  transform: scale(1.1);
-  border-color: #009c9d;
-}
-
-@media (max-width: 600px) {
-  .thumbnails img {
-    width: 70px;
-    height: 70px;
-  }
-}
-</style>
 
 <script>
 function changeImage(thumbnail) {
@@ -67,3 +185,6 @@ function changeImage(thumbnail) {
   mainImage.src = thumbnail.src;
 }
 </script>
+
+</body>
+</html>
